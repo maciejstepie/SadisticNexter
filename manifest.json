@@ -23,5 +23,10 @@
     },
     "options_page": "./options.html",
     "permissions": ["activeTab", "tabs", "storage", "scripting"],
-    "host_permissions": ["https://sadistic.pl/*", "http://sadistic.pl/*"]
+    "host_permissions": [
+        "https://sadistic.pl/*",
+        "http://sadistic.pl/*",
+        "https://www.sadistic.pl/*",
+        "http://www.sadistic.pl/*"
+    ]
 }

@@ -1,10 +1,27 @@
 .pepe {
-    position: fixed;
-    top: 45vh;
-    right: 200px;
     border-radius: 5%;
     background-color: yellow;
     padding: 1rem;
     font-size: 2rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.pepe:hover {
+    cursor: pointer;
+    border: 1px solid yellow;
+    background-color: black;
+    color: yellow;
+}
+.pepe.next {
+    position: fixed;
+    top: 45vh;
     right: 5%;
+}
+
+.pepe.previous {
+    position: fixed;
+    top: 45vh;
+    left: 200px;
 }
